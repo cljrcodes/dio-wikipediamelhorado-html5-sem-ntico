@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.header-img {
+padding: 1px 1px 1px 1px;
+margin: 1px 1px 1px 1px;
+    
+}
+.search {
+    margin-right: 6rem;
+    margin-left: 12rem;
+}
+
+.camp-search {
+    width: 350px;
+}
+.button-search {
+    width: 120px;
+}

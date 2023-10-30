@@ -1,0 +1,59 @@
+h1 {
+    font-size: 20px;
+}
+h2 {
+    font-size: 18px;
+}
+h3 {
+    font-size: 17px;
+    font-style: oblique;
+}
+
+figcaption {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+#ct-critica, #ct-recepcao blockquote {
+    border-left: solid 3px red;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 10px;
+    background-color: grey;
+}
+
+ul, ol, li, a {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+p {
+    text-indent: 30px;
+}
+
+.main {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.sidebar {
+    text-align: left;
+    border-right: solid 1px #cdcdcd;
+    margin: 0;
+}
+
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+
+thead {
+    background-color: rgb(255,102,102);
+}
+tbody {
+    background-color: rgb(255,174,174);
+}

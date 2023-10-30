@@ -1,0 +1,39 @@
+body, html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.general-content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.pagina-inicial {
+    max-width: 1440px;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "main";
+    grid-template-columns: minmax(0,2.5fr);
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.barra-divisoria {
+    background-color: rgb(249,249,251);
+    border-top: 1px solid rgb(231,231,231);
+    border-bottom: 1px solid rgb(231,231,231);
+    padding: 12px;
+}
+
+tr, tbody, thead, td, th {
+    border: solid black 1px;
+    text-align: center;
+    justify-content: center;
+}
